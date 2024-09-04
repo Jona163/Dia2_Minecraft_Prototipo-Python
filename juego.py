@@ -13,7 +13,11 @@ class Voxel(Button):
             origin_y=0.5,
             texture='grass',
             color=color.rgb(255, 255, 255),
-            highlight_color=color.lime
+            highlight_color=color.lime,
         )
+    def input(self,key):
+        if self hovered
+        if key == "left mouse down":
+            voxel = Voxel(position=self position= mouse normal)
 
 app.run()
