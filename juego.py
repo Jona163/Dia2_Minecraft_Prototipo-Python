@@ -25,6 +25,6 @@ class Voxel(Button):
 chunkSize = 16
 for z in range(chunkSize):
     for x in range(chunkSize):
-        voxel = Voxel(position(x,0,z))
+        voxel = Voxel(position=(x,0,z))
 
 app.run()
