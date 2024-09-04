@@ -1,3 +1,8 @@
+"""
+Autor: [Jonathan Hernandez]
+Fecha: [02/09/24]
+Descripción: [Prototipo basico minecraft]
+"""
 # Importación de librería de Ursina y del controlador en primera persona
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
