@@ -22,5 +22,9 @@ class Voxel(Button):
 
         if key == "rigth mouse down":
            destroy(self)
+chunkSize = 16
+for z in range(chunkSize):
+    for x in range(chunkSize):
+        voxel = Voxel(position(x,0,z))
 
 app.run()
