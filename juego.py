@@ -15,17 +15,19 @@ class Voxel(Button):
             color=color.rgb(255, 255, 255),
             highlight_color=color.lime,
         )
-    def input(self,key):
-        if self hovered
-        if key == "left mouse down":
-            voxel = Voxel(position=self position= mouse normal)
 
-        if key == "rigth mouse down":
-           destroy(self)
+    def input(self, key):
+        if self.hovered:
+            if key == "left mouse down":
+                voxel = Voxel(position=self.position + mouse.normal)
+            if key == "right mouse down":
+                destroy(self)
+
 chunkSize = 16
 for z in range(chunkSize):
     for x in range(chunkSize):
-        voxel = Voxel(position=(x,0,z))
+        voxel = Voxel(position=(x, 0, z))
+
 player = FirstPersonController()
 
 app.run()
