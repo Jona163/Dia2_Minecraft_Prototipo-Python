@@ -26,5 +26,6 @@ chunkSize = 16
 for z in range(chunkSize):
     for x in range(chunkSize):
         voxel = Voxel(position=(x,0,z))
+player = FirstPersonController()
 
 app.run()
